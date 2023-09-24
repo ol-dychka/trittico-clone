@@ -1,4 +1,5 @@
 import ButtonArrowAnimated from "../reusable/ButtonArrowAnimated";
+import collection from "../../assets/images/collection.png";
 
 const ExploreFamily = () => {
   return (
@@ -11,11 +12,7 @@ const ExploreFamily = () => {
           <ButtonArrowAnimated text="DISCOVER MORE" />
         </div>
         <div className="h-full basis-2/5 bg-gray-light">
-          <img
-            src="..\..\assets\images\collection.png"
-            alt="img"
-            className="h-96 object-cover"
-          />
+          <img src={collection} alt="img" className="h-96 object-cover" />
         </div>
       </div>
     </div>

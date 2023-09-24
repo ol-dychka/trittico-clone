@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { SelectedPage } from "../../shared/types";
 import PageTemplate from "../reusable/PageTemplate";
+import fork from "../../assets/images/fork.png";
+import forkVid from "../../assets/video/fork-vid.mp4";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -12,8 +14,8 @@ const Fork = ({ setSelectedPage }: Props) => {
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Fork)}>
         <PageTemplate
           inverted
-          image="../../assets/images/fork.png"
-          video="../../assets/video/fork-vid.mp4"
+          image={fork}
+          video={forkVid}
           videoTitle="Precise Driving"
           videoText="Market-leading frontal and lateral rigidity."
           title="TRITTICO FORK"

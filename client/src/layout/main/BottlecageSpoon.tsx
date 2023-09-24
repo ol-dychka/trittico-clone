@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { SelectedPage } from "../../shared/types";
 import DiscoverMore from "../reusable/DiscoverMore";
+import raceSpoon from "../../assets/images/race-spoon.png";
+import bottlecage from "../../assets/images/bottlecage.png";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -15,18 +17,10 @@ const BottlecageSpoon = ({ setSelectedPage }: Props) => {
       >
         <div className="grid grid-cols-3 grid-rows-2 gap-3">
           <div className="col-span-1 rounded-lg bg-gray-light">
-            <img
-              src="../../assets/images/race-spoon.png"
-              alt="img"
-              height="100%"
-            />
+            <img src={raceSpoon} alt="img" height="100%" />
           </div>
           <div className="col-span-2 rounded-lg bg-gray-light">
-            <img
-              src="../../assets/images/bottlecage.png"
-              alt="img"
-              height="100%"
-            />
+            <img src={bottlecage} alt="img" height="100%" />
           </div>
           <div className="col-span-1 p-4">
             <p className="font-header text-2xl">

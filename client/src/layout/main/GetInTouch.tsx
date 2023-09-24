@@ -1,4 +1,5 @@
 import ButtonArrowAnimated from "../reusable/ButtonArrowAnimated";
+import getInTouch from "../../assets/images/get-in-touch.png";
 
 const GetInTouch = () => {
   return (
@@ -12,11 +13,7 @@ const GetInTouch = () => {
         <ButtonArrowAnimated text="PRE-ORDER NOW" isDark />
       </div>
       <div className="relative h-full basis-1/2">
-        <img
-          src="..\..\assets\images\get-in-touch.png"
-          alt="img"
-          className="absolute bottom-0"
-        />
+        <img src={getInTouch} alt="img" className="absolute bottom-0" />
       </div>
     </div>
   );

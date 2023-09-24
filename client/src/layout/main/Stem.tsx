@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { SelectedPage } from "../../shared/types";
 import PageTemplate from "../reusable/PageTemplate";
+import stem from "../../assets/images/stem.png";
+import stemVid from "../../assets/video/stem-vid.mp4";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -11,8 +13,8 @@ const Stem = ({ setSelectedPage }: Props) => {
     <section id={SelectedPage.Stem}>
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Stem)}>
         <PageTemplate
-          image="../../assets/images/stem.png"
-          video="../../assets/video/stem-vid.mp4"
+          image={stem}
+          video={stemVid}
           videoTitle="Sleeve Variations"
           videoText="Black Tuning for a 0 / +5mm variation or Red Tuning for a -5° variation."
           title="TRITTICO STEM"

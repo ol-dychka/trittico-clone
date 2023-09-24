@@ -1,12 +1,10 @@
+import headerVid from "../../assets/video/header-vid.mp4";
+import header from "../../assets/images/header.png";
+
 const PhotoHeader = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden bg-gray-dark">
-      <img
-        src="../../assets/images/header.png"
-        alt="header"
-        height="50%"
-        className="object-contain"
-      />
+      <img src={header} alt="header" height="50%" className="object-contain" />
       <div className="absolute top-1/3 w-full px-4">
         <div className="mt-8 flex justify-between">
           <p className="max-w-lg text-white">
@@ -23,7 +21,7 @@ const PhotoHeader = () => {
           playsInline
           className="mt-4 rounded-lg"
         >
-          <source src="../../assets/video/header-vid.mp4" />
+          <source src={headerVid} />
         </video>
       </div>
     </div>

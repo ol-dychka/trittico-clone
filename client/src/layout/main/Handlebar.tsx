@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { SelectedPage } from "../../shared/types";
 import PageTemplate from "../reusable/PageTemplate";
+import handlebar from "../../assets/images/handlebar.png";
+import handlebarVid from "../../assets/video/handlebar-vid.mp4";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -14,8 +16,8 @@ const Handlebar = ({ setSelectedPage }: Props) => {
       >
         <PageTemplate
           inverted
-          image="../../assets/images/handlebar.png"
-          video="../../assets/video/handlebar-vid.mp4"
+          image={handlebar}
+          video={handlebarVid}
           videoTitle="Ergonomics"
           videoText="Smart Fit incision and Precision Fit."
           title="TRITTICO HANDLEBAR"

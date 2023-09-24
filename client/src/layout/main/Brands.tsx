@@ -1,19 +1,35 @@
+import jaegher from "../../assets/sponsors/jaegher.png";
+import victoire from "../../assets/sponsors/victoire.png";
+import festka from "../../assets/sponsors/festka.png";
+import passoine from "../../assets/sponsors/passoine.png";
+import stelbel from "../../assets/sponsors/stelbel.png";
+import condor from "../../assets/sponsors/condor.png";
+import belle from "../../assets/sponsors/belle.png";
+import ipqor from "../../assets/sponsors/ipqor.png";
+import beachclub from "../../assets/sponsors/beachclub.png";
+import repete from "../../assets/sponsors/repete.png";
+import onguza from "../../assets/sponsors/onguza.png";
+import titici from "../../assets/sponsors/titici.png";
+import ioklin from "../../assets/sponsors/ioklin.png";
+import bixxis from "../../assets/sponsors/bixxis.png";
+import cinelli from "../../assets/sponsors/cinelli.png";
+
 const brands = [
-  "jaegher",
-  "victoire",
-  "festka",
-  "passoine",
-  "stelbel",
-  "condor",
-  "belle",
-  "ipqor",
-  "beach-club",
-  "repete",
-  "onguza",
-  "titici",
-  "ioklin",
-  "bixxis",
-  "cinelli",
+  jaegher,
+  victoire,
+  festka,
+  passoine,
+  stelbel,
+  condor,
+  belle,
+  ipqor,
+  beachclub,
+  repete,
+  onguza,
+  titici,
+  ioklin,
+  bixxis,
+  cinelli,
 ];
 
 const Brands = () => {
@@ -30,12 +46,7 @@ const Brands = () => {
       <div className="group grid basis-7/12 grid-cols-4 justify-around gap-x-5 gap-y-5">
         {brands.map((brand) => (
           <div className="cursor-pointer rounded-md bg-gray-light transition duration-200 group-hover:opacity-50 group-hover:hover:opacity-100">
-            <img
-              src={`../../assets/sponsors/${brand}.png`}
-              alt="img"
-              height="100%"
-              width="100%"
-            />
+            <img src={brand} alt="img" height="100%" width="100%" />
           </div>
         ))}
       </div>

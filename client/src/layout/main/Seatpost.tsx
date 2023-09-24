@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { SelectedPage } from "../../shared/types";
 import PageTemplate from "../reusable/PageTemplate";
+import seatpost from "../../assets/images/seatpost.png";
+import seatpostVid from "../../assets/video/seatpost-vid.mp4";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -13,8 +15,8 @@ const Seatpost = ({ setSelectedPage }: Props) => {
         onViewportEnter={() => setSelectedPage(SelectedPage.Seatpost)}
       >
         <PageTemplate
-          image="../../assets/images/seatpost.png"
-          video="../../assets/video/seatpost-vid.mp4"
+          image={seatpost}
+          video={seatpostVid}
           videoTitle="Dual Offset System"
           videoText="15/25mm variation for micro fit-adjustments."
           title="TRITTICO SEATPOST"

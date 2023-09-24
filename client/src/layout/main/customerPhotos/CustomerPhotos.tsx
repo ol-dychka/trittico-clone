@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
 import ButtonPhotoArrow from "./ButtonPhotoArrow";
+import irlImg1 from "../../../assets/images/irl-img1.jpg";
+import irlImg2 from "../../../assets/images/irl-img2.jpg";
 
 const CustomerPhotos = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -39,7 +41,7 @@ const CustomerPhotos = () => {
           <ul className="mx-[20vw] w-[130vw] whitespace-nowrap">
             <li className="mr-[10vw] inline-block w-[60vw]">
               <img
-                src="../../assets/images/irl-img2.jpg"
+                src={irlImg1}
                 alt="irl"
                 width="100%"
                 className="rounded-t-md"
@@ -52,7 +54,7 @@ const CustomerPhotos = () => {
             </li>
             <li className="inline-block w-[60vw]">
               <img
-                src="../../assets/images/irl-img1.jpg"
+                src={irlImg2}
                 alt="irl"
                 width="100%"
                 className="rounded-t-md"
