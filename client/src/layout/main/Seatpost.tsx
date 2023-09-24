@@ -13,8 +13,8 @@ const Seatpost = ({ setSelectedPage }: Props) => {
         onViewportEnter={() => setSelectedPage(SelectedPage.Seatpost)}
       >
         <PageTemplate
-          image="./src/assets/images/seatpost.png"
-          video="./src/assets/video/seatpost-vid.mp4"
+          image="../../assets/images/seatpost.png"
+          video="../../assets/video/seatpost-vid.mp4"
           videoTitle="Dual Offset System"
           videoText="15/25mm variation for micro fit-adjustments."
           title="TRITTICO SEATPOST"

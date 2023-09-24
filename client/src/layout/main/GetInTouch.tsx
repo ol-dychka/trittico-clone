@@ -13,7 +13,7 @@ const GetInTouch = () => {
       </div>
       <div className="relative h-full basis-1/2">
         <img
-          src=".\src\assets\images\get-in-touch.png"
+          src="..\..\assets\images\get-in-touch.png"
           alt="img"
           className="absolute bottom-0"
         />

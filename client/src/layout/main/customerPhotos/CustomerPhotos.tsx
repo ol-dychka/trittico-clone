@@ -39,7 +39,7 @@ const CustomerPhotos = () => {
           <ul className="mx-[20vw] w-[130vw] whitespace-nowrap">
             <li className="mr-[10vw] inline-block w-[60vw]">
               <img
-                src="./src/assets/images/irl-img2.jpg"
+                src="../../assets/images/irl-img2.jpg"
                 alt="irl"
                 width="100%"
                 className="rounded-t-md"
@@ -52,7 +52,7 @@ const CustomerPhotos = () => {
             </li>
             <li className="inline-block w-[60vw]">
               <img
-                src="./src/assets/images/irl-img1.jpg"
+                src="../../assets/images/irl-img1.jpg"
                 alt="irl"
                 width="100%"
                 className="rounded-t-md"

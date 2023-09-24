@@ -12,7 +12,7 @@ const ExploreFamily = () => {
         </div>
         <div className="h-full basis-2/5 bg-gray-light">
           <img
-            src=".\src\assets\images\collection.png"
+            src="..\..\assets\images\collection.png"
             alt="img"
             className="h-96 object-cover"
           />

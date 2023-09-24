@@ -1,6 +1,7 @@
 import ButtonArrowAnimated from "../reusable/ButtonArrowAnimated";
 import facebook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";
+import footerLogo from "../../assets/images/footer-logo.png";
 
 type Props = {
   setFormOpen: () => void;
@@ -11,11 +12,7 @@ const Footer = ({ setFormOpen }: Props) => {
     <div className="bg-black px-4 pb-16 pt-24">
       <div className="mb-12 flex justify-between">
         <div>
-          <img
-            src=".\src\assets\images\footer-logo.png"
-            alt="logo"
-            className="mb-4 h-10"
-          />
+          <img src={footerLogo} alt="logo" className="mb-4 h-10" />
           <p className="max-w-md text-sm text-white">
             Founded in Milan in 1919, Columbus has for over 100 years produced
             the highest quality tubes in the world for building steel, titanium

@@ -16,14 +16,14 @@ const BottlecageSpoon = ({ setSelectedPage }: Props) => {
         <div className="grid grid-cols-3 grid-rows-2 gap-3">
           <div className="col-span-1 rounded-lg bg-gray-light">
             <img
-              src="./src/assets/images/race-spoon.png"
+              src="../../assets/images/race-spoon.png"
               alt="img"
               height="100%"
             />
           </div>
           <div className="col-span-2 rounded-lg bg-gray-light">
             <img
-              src="./src/assets/images/bottlecage.png"
+              src="../../assets/images/bottlecage.png"
               alt="img"
               height="100%"
             />

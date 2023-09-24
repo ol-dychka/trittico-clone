@@ -14,8 +14,8 @@ const Handlebar = ({ setSelectedPage }: Props) => {
       >
         <PageTemplate
           inverted
-          image="./src/assets/images/handlebar.png"
-          video="./src/assets/video/handlebar-vid.mp4"
+          image="../../assets/images/handlebar.png"
+          video="../../assets/video/handlebar-vid.mp4"
           videoTitle="Ergonomics"
           videoText="Smart Fit incision and Precision Fit."
           title="TRITTICO HANDLEBAR"

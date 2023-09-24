@@ -2,7 +2,7 @@ const PhotoHeader = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden bg-gray-dark">
       <img
-        src="./src/assets/images/header.png"
+        src="../../assets/images/header.png"
         alt="header"
         height="50%"
         className="object-contain"
@@ -23,7 +23,7 @@ const PhotoHeader = () => {
           playsInline
           className="mt-4 rounded-lg"
         >
-          <source src="./src/assets/video/header-vid.mp4" />
+          <source src="../../assets/video/header-vid.mp4" />
         </video>
       </div>
     </div>

@@ -31,7 +31,7 @@ const Brands = () => {
         {brands.map((brand) => (
           <div className="cursor-pointer rounded-md bg-gray-light transition duration-200 group-hover:opacity-50 group-hover:hover:opacity-100">
             <img
-              src={`./src/assets/sponsors/${brand}.png`}
+              src={`../../assets/sponsors/${brand}.png`}
               alt="img"
               height="100%"
               width="100%"

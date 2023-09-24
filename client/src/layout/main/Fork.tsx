@@ -12,8 +12,8 @@ const Fork = ({ setSelectedPage }: Props) => {
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Fork)}>
         <PageTemplate
           inverted
-          image="./src/assets/images/fork.png"
-          video="./src/assets/video/fork-vid.mp4"
+          image="../../assets/images/fork.png"
+          video="../../assets/video/fork-vid.mp4"
           videoTitle="Precise Driving"
           videoText="Market-leading frontal and lateral rigidity."
           title="TRITTICO FORK"
