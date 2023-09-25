@@ -21,7 +21,7 @@ export default {
         default: ["Poppins", "sans-serif"],
       },
       screens: {
-        s: "1000px",
+        s: "750px",
       },
       margin: ["group-hover", "hover"],
       textColor: ["group-hover", "hover"],

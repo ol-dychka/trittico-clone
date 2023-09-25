@@ -10,8 +10,8 @@ type Props = {
 const Footer = ({ setFormOpen }: Props) => {
   return (
     <div className="bg-black px-4 pb-16 pt-24">
-      <div className="mb-12 flex justify-between">
-        <div>
+      <div className="mb-12 justify-between gap-4 md:flex">
+        <div className="mb-4">
           <img src={footerLogo} alt="logo" className="mb-4 h-10" />
           <p className="max-w-md text-sm text-white">
             Founded in Milan in 1919, Columbus has for over 100 years produced
@@ -22,7 +22,7 @@ const Footer = ({ setFormOpen }: Props) => {
             be it for metal tubing or carbon fiber components.
           </p>
         </div>
-        <div>
+        <div className="mb-4">
           <p className="mb-4 max-w-md text-3xl font-medium text-white">
             Subscribe to the official Columbus mailing list
           </p>
@@ -33,20 +33,8 @@ const Footer = ({ setFormOpen }: Props) => {
           <ButtonArrowAnimated text="SIGN-UP NOW" onClick={setFormOpen} />
         </div>
       </div>
-      <div className="flex items-center justify-between">
-        <div className="flex justify-between gap-4 text-xs text-gray-medium">
-          <p>© 2023 COPYRIGHT COLUMBUS - GRUPPO SRL - P.IVA 12007070159</p>
-          <p className="cursor-pointer underline transition duration-300 hover:text-white">
-            COOKIE POLICY
-          </p>
-          <p className="cursor-pointer underline transition duration-300 hover:text-white">
-            PRIVACY POLICY
-          </p>
-          <p className="cursor-pointer underline transition duration-300 hover:text-white">
-            PRIVACY PREFERENCES
-          </p>
-        </div>
-        <div className="flex justify-between gap-4">
+      <div className="flex-row-reverse items-center justify-between md:flex">
+        <div className="mb-4 flex gap-4 md:justify-between">
           <img
             src={facebook}
             alt="logo"
@@ -61,6 +49,18 @@ const Footer = ({ setFormOpen }: Props) => {
             height="22px"
             className="cursor-pointer"
           />
+        </div>
+        <div className="flex-row-reverse justify-between gap-4 text-xs text-gray-medium md:flex">
+          <p className="mb-6 cursor-pointer underline transition duration-300 hover:text-white">
+            COOKIE POLICY
+          </p>
+          <p className="mb-6 cursor-pointer underline transition duration-300 hover:text-white">
+            PRIVACY POLICY
+          </p>
+          <p className="mb-12 cursor-pointer underline transition duration-300 hover:text-white">
+            PRIVACY PREFERENCES
+          </p>
+          <p>© 2023 COPYRIGHT COLUMBUS - GRUPPO SRL - P.IVA 12007070159</p>
         </div>
       </div>
     </div>

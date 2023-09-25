@@ -66,7 +66,7 @@ const CustomerPhotos = () => {
           </ul>
         </div>
         {/* BUTTONS */}
-        <div className="absolute top-1/2 flex w-full justify-between overflow-hidden px-36">
+        <div className="absolute top-1/2 flex w-full justify-between overflow-hidden px-8 md:px-36">
           <ButtonPhotoArrow onClick={() => scroll(-2000)} isLeft />
           <ButtonPhotoArrow onClick={() => scroll(2000)} />
         </div>
@@ -75,8 +75,7 @@ const CustomerPhotos = () => {
       <div
         className="mx-[20vw] flex h-1"
         style={{
-          // justifyContent: scrolled === 0 ? "left" : "right",
-          paddingLeft: scrolled / 1.839,
+          paddingLeft: scrolled / 1.81,
         }}
       >
         <div className="h-full w-[20vw] rounded-sm bg-black" />

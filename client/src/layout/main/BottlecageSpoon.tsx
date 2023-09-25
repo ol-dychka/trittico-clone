@@ -15,9 +15,9 @@ const BottlecageSpoon = ({ setSelectedPage }: Props) => {
         className="w-full px-4 py-4"
         onViewportEnter={() => setSelectedPage(SelectedPage.BottlecageSpoon)}
       >
-        <div className="grid grid-cols-3 grid-rows-2 gap-3">
+        <div className="grid-cols-3 grid-rows-2 gap-3 md:grid">
           <div className="col-span-1 rounded-lg bg-gray-light">
-            <img src={raceSpoon} alt="img" height="100%" />
+            <img src={raceSpoon} alt="img" height="100%" className="mb-4" />
           </div>
           <div className="col-span-2 rounded-lg bg-gray-light">
             <img src={bottlecage} alt="img" height="100%" />

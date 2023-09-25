@@ -21,7 +21,7 @@ const PageTemplate = ({
   return (
     <div className="mb-36 w-full px-4 py-4">
       <div
-        className={`flex ${
+        className={`md:flex ${
           inverted ? "flex-row-reverse" : "flex-row"
         } justify-between`}
       >
@@ -32,7 +32,7 @@ const PageTemplate = ({
         >
           <div className="relative">
             <video
-              width="500"
+              width="100%"
               muted
               autoPlay
               loop

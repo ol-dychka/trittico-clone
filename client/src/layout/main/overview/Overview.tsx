@@ -14,7 +14,7 @@ const Overview = ({ setSelectedPage }: Props) => {
         onViewportEnter={() => setSelectedPage(SelectedPage.Overview)}
       >
         <div className="w-full px-4 py-36">
-          <div className="flex justify-between">
+          <div className="justify-between xl:flex">
             <div className="basis-1/2">
               <p className="text-5xl font-medium leading-tight">
                 High performance, intuitive micro-tuning, minimalist Italian
