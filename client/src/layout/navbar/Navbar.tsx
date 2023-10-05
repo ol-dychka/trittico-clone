@@ -72,20 +72,14 @@ const Navbar = ({ selectedPage, setSelectedPage, setFormOpen }: Props) => {
 
   // MOBILE VIEW
   return (
-    <>
-      <div className="fixed top-5 z-10 w-full justify-between px-4">
+    <div>
+      <div className="fixed top-5 z-10 w-[90vw] pl-[10vw]">
         <div
-          className={`relative flex w-full items-center justify-center ${
+          className={`relative flex w-auto items-center justify-center ${
             isOpen ? "rounded-t-md" : "rounded-md"
-          } bg-black px-4 py-3 text-white`}
+          } bg-black py-3 text-white`}
         >
-          <img
-            src={logoMobile}
-            alt="logo"
-            width="170px"
-            height="24px"
-            className="mix-blend-difference"
-          />
+          <img src={logoMobile} alt="logo" width="170px" />
 
           <div
             className="absolute left-3 cursor-pointer text-white"
@@ -145,7 +139,7 @@ const Navbar = ({ selectedPage, setSelectedPage, setFormOpen }: Props) => {
       <div className="fixed bottom-5 right-5 z-10">
         <ButtonArrowAnimated text="PRE-ORDER NOW" onClick={setFormOpen} />
       </div>
-    </>
+    </div>
   );
 };
 export default Navbar;

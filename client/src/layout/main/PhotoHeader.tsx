@@ -16,7 +16,9 @@ const PhotoHeader = () => {
       />
       <div className="absolute top-1/3 w-full px-4">
         <div className="mt-8 flex-row-reverse justify-between lg:flex">
-          <p className="mb-4 font-header text-6xl text-white">TRITTICO</p>
+          <p className="mb-4 font-header text-3xl text-white lg:text-6xl">
+            TRITTICO
+          </p>
           <p className="max-w-lg text-white">
             Design-driven performance cycling components, tuned specifically for
             handmade and bespoke bicycles.

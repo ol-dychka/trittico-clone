@@ -5,8 +5,8 @@ type Props = {
 const Feature = ({ name, desc }: Props) => {
   return (
     <>
-      <div className="flex justify-between py-6">
-        <p className="text-xs font-medium text-gray-medium">{name}</p>
+      <div className="flex justify-between gap-2 py-6">
+        <p className="min-w-max text-xs font-medium text-gray-medium">{name}</p>
         <p className="text-xs font-medium">{desc}</p>
       </div>
       <div className="h-px w-full bg-gray-light" />

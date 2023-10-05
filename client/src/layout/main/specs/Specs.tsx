@@ -82,7 +82,7 @@ const Specs = ({ setSelectedPage }: Props) => {
         <p className="font-header text-2xl text-white">
           TRITTICO TECHNICAL SPECS
         </p>
-        <div className="my-16 flex text-gray-medium">
+        <div className="my-16 flex flex-wrap text-gray-medium">
           {Object.keys(Tab).map((t) => (
             <button
               key={t}

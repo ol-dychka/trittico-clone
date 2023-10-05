@@ -130,7 +130,7 @@ const EmailForm = ({ close }: Props) => {
                 <div className="mb-8" />
               )}
 
-              <div className="flex items-center justify-between">
+              <div className="items-center justify-between gap-4 sm:flex">
                 <div className="flex">
                   <div>
                     <input
@@ -154,7 +154,9 @@ const EmailForm = ({ close }: Props) => {
                     I AGREE WITH THE COLUMBUS’S PRIVACY POLICY *
                   </p>
                 </div>
-                <ButtonArrowAnimated submit text="SEND REQUEST" isDark />
+                <div className="flex justify-end">
+                  <ButtonArrowAnimated submit text="SEND REQUEST" isDark />
+                </div>
               </div>
             </form>
           </div>
