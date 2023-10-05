@@ -40,7 +40,7 @@ function App() {
       <BottlecageSpoon setSelectedPage={setSelectedPage} />
       <CustomerPhotos />
       <Specs setSelectedPage={setSelectedPage} />
-      <GetInTouch />
+      <GetInTouch setFormOpen={() => setFormOpen(true)} />
       <Brands />
       <ExploreFamily />
       <Footer setFormOpen={() => setFormOpen(true)} />

@@ -44,7 +44,7 @@ const EmailForm = ({ close }: Props) => {
             <XMarkIcon className="h-4 w-4" />
           </div>
         </div>
-        <div className="flex justify-between">
+        <div className="justify-between lg:flex">
           <div className="basis-1/3">
             <p className="text-3xl font-medium">
               Please fill in the form and a member of our team will get back to
