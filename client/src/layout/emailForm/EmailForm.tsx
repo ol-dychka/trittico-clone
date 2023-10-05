@@ -51,7 +51,7 @@ const EmailForm = ({ close }: Props) => {
               you with the relevant details.
             </p>
           </div>
-          <div className="basis-3/5">
+          <div className="mt-4 basis-3/5">
             <form
               target="_blank"
               onSubmit={onSubmit}

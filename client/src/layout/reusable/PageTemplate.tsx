@@ -1,3 +1,4 @@
+import useMediaQuery from "../../hooks/useMediaQuery";
 import DiscoverMore from "./DiscoverMore";
 
 type Props = {
@@ -18,6 +19,8 @@ const PageTemplate = ({
   title,
   text,
 }: Props) => {
+  const isAboveMobile = useMediaQuery("(min-width:768px)");
+
   return (
     <div className="mb-36 w-full px-4 py-4">
       <div
@@ -27,7 +30,7 @@ const PageTemplate = ({
       >
         <div
           className={`${
-            inverted ? "ml-3" : "mr-3"
+            isAboveMobile ? (inverted ? "ml-3" : "mr-3") : ""
           } flex basis-1/3 flex-col justify-between`}
         >
           <div className="relative">
